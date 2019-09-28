@@ -1,1 +1,22 @@
 // Mixins Here
+.flex-set (@direction, @justify, @align) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.center-structure {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.button-set (@background, @color) {
+  background: @background;
+  color: @color;
+  width: 30%;
+  text-align: center;
+  padding: 8px 1%;
+  font-size: 1.8rem;
+  border-radius: 6px;
+}
