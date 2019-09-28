@@ -168,7 +168,7 @@ p {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding: 2% 0;
+  padding: 1% 0;
   margin-top: 2%;
   display: flex;
   flex-direction: column;
@@ -181,6 +181,7 @@ p {
 @media (max-width: 500px) {
   .real-head {
     max-width: 500px;
+    padding: 2% 0;
   }
 }
 .real-head h1 {
