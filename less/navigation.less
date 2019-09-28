@@ -3,14 +3,16 @@
 .real-head {
   max-width: 1000px;
   .center-structure();
-  padding: 1% 0;
+  padding: 2% 0;
   margin-top: 2%;
   .flex-set(column, space-between, center);
-  background: @nav-bg;
+  //   background: @nav-bg;
+  background: rgba(246, 246, 246, 0.9);
+  top: 0px;
+  position: sticky;
 
   @media @phone {
     max-width: 500px;
-    padding: 2% 0;
   }
   h1 {
     font-size: 4rem;
@@ -24,7 +26,9 @@
   nav {
     width: 50%;
     .flex-set(row, space-around, center);
-
+    @media @tablet {
+      width: 60%;
+    }
     @media @phone {
       width: 80%;
     }

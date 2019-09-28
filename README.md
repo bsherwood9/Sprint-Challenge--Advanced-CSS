@@ -44,7 +44,7 @@ Different approaches to creating websites. Some start mobile first and scale up 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-If I use 1rem, this would mean my font-size is matches the 62.5.
+If I use 1rem, this would mean my font-size is matches the 62.5 of 16px. This would mean that everywhere that I use REM, the font size would adjust.
 
 4. How would you describe preprocessing to someone new to CSS?
 
